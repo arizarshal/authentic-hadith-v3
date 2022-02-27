@@ -8,17 +8,18 @@ const HadithSchema = new mongoose.Schema({
     },
     referenceNo : {
         type: String,
-        required: [true, "A reference number is required"]
+        required: [true, "A reference number is required"],
         unique: true
     },
     title: {
         type: String,
         required: [true, "A title is required"],
         unique: false,
+        trim: true
     },
     hadith: {
         type: String,
-        required: [true, "A hadith is required"]
+        required: [true, "A hadith is required"],
         trim: true
     }  
 })
