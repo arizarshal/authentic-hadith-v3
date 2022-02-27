@@ -1,0 +1,34 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@admin-bro/design-system": "^1.7.3",
+    "@admin-bro/express": "^3.1.0",
+    "@admin-bro/mongoose": "^1.1.0",
+    "@admin-bro/upload": "^1.3.1",
+    "admin-bro": "^4.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "csurf": "^1.11.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-formidable": "^1.2.0",
+    "express-layout": "^0.1.0",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.14.0",
+    "mongoose": "^6.1.8",
+    "morgan": "^1.10.0",
+    "tslib": "^2.3.1"
+  }
+}
